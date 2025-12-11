@@ -38,8 +38,8 @@ The system is architected to mimic the biological subsystems of a smart assistan
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/voice-iot-simulator.git](https://github.com/your-username/voice-iot-simulator.git)
-    cd voice-iot-simulator
+    git clone git@github.com:chengxiu2008/Digital-Twin.git
+    cd Digital-Twin
     ```
 
 2.  **Install Dependencies:**
