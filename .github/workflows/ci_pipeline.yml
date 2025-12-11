@@ -1,0 +1,27 @@
+name: Laptop Hardware Test
+
+# Trigger the pipeline whenever you push code
+on: [push]
+
+jobs:
+  trigger-physical-device:
+    # CRITICAL: This tells GitHub to ignore its own servers
+    # and wait for YOUR laptop to pick up the job.
+    runs-on: self-hosted
+
+    steps:
+    # 1. Download the latest code from GitHub to your laptop
+    - name: Check out code
+      uses: actions/checkout@v3
+
+    # 2. Install dependencies (Uses your laptop's Python)
+    - name: Install Libraries
+      run: |
+        pip install -r requirements.txt
+
+    # 3. The Magic Moment
+    # This runs the script LOCALLY on your machine.
+    # Your screen will dim and your speakers will speak.
+    - name: Run Hardware Simulation
+      run: |
+        python final_demo.py

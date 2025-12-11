@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "DESKTOP-V5FSVCU",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus22.actions.githubusercontent.com/vW7TnplRZIO6DdQhnR0z9TuSxpMDuBx5xSNbTQneDgIAbxbUo7/",
+  "gitHubUrl": "https://github.com/chengxiu2008/Digital-Twin",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
