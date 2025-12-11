@@ -6,7 +6,7 @@ import time
 
 
 def run_full_body_simulation():
-    print("=== 🤖 FULL BODY IOT SIMULATION 🤖 ===")
+    print("=== FULL BODY IOT SIMULATION  ===")
 
     # 1. Wake up the Organs
     user_mouth = TestDataGenerator()
@@ -47,9 +47,9 @@ def run_full_body_simulation():
         print(f"    Actual Hardware: {current_val}")
 
         if current_val == 100:
-            print("✅ SUCCESS: Full loop complete.")
+            print("SUCCESS: Full loop complete.")
     else:
-        print("❌ FAILED: Could not understand command.")
+        print("FAILED: Could not understand command.")
 
 
 if __name__ == "__main__":

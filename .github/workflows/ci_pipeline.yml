@@ -23,5 +23,7 @@ jobs:
     # This runs the script LOCALLY on your machine.
     # Your screen will dim and your speakers will speak.
     - name: Run Hardware Simulation
+      env:
+        PYTHONIOENCODING: utf-8  # <--- ADD THIS LINE
       run: |
         python final_demo.py

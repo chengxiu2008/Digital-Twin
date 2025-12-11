@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "chengxiu2008/Digital-Twin",
+  "pipelineDirectory": "Digital-Twin",
+  "workspaceDirectory": "Digital-Twin\\Digital-Twin",
+  "repositories": {
+    "chengxiu2008/Digital-Twin": {
+      "repositoryPath": "Digital-Twin\\Digital-Twin",
+      "lastRunOn": "12/11/2025 13:18:07 -06:00"
+    }
+  },
+  "lastRunOn": "12/11/2025 13:18:07 -06:00"
+}
